@@ -3,9 +3,9 @@ import React from 'react'
 
 const ReviewCard = () => {
     return (
-        <div class=" rounded-3xl border border-neutral-800 bg-black p-8 shadow-sm max-w-sm mx-auto mt-14">
+        <div className=" rounded-3xl border border-neutral-800 bg-black p-8 shadow-sm max-w-sm mx-auto mt-14">
 
-            <div class="text-violet-500 flex gap-2">
+            <div className="text-violet-500 flex gap-2">
                 <Image
                     src="/star.svg"
                     alt="Star Icon"
@@ -44,14 +44,14 @@ const ReviewCard = () => {
 
             </div>
 
-            <h3 class="my-4 mb-0 text-base font-normal text-start items-start text-gray-400">
+            <h3 className="my-4 mb-0 text-base font-normal text-start items-start text-gray-400">
                 I have been using XYZ for over a year now and their customer service is excellent! Whenever I have a question, the team is always
                 available and willing to help. Highly recommend!
             </h3>
 
 
-            <div class="mt-6 flex items-center gap-6 ">
-                <div class="h-10 w-10 overflow-hidden rounded-full shadow-sm outline-neutral-800">
+            <div className="mt-6 flex items-center gap-6 ">
+                <div className="h-10 w-10 overflow-hidden rounded-full shadow-sm outline-neutral-800">
                     <div className=" inline-block overflow-hidden rounded-lg border border-neutral-800">
                         <Image
                             alt="image"
@@ -65,8 +65,8 @@ const ReviewCard = () => {
                     </div>
                 </div>
                 <div>
-                    <p class="leading-relaxed tracking-wide text-gray-200">Melissa Smith</p>
-                    <p class="text-xs leading-relaxed tracking-wide text-gray-400">Marketing Manager</p>
+                    <p className="leading-relaxed tracking-wide text-gray-200">Melissa Smith</p>
+                    <p clclassNameass="text-xs leading-relaxed tracking-wide text-gray-400">Marketing Manager</p>
                 </div>
             </div>
 
