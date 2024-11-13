@@ -10,7 +10,7 @@ const Footer = () => {
                 {/* Job Section */}
                 <div>
                     <div className='flex gap-2 items-center'>
-                    <Image src={"/beg.svg"} width={20} height={20}/>
+                    <Image src={"/beg.svg"} width={20} height={20} alt="image"/>
                     <h2 className="text-lg font-semibold flex items-center">Job</h2>
                     </div>
                     <p className="text-gray-400 mt-4 text-lg">

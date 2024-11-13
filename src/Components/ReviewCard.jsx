@@ -45,7 +45,7 @@ const ReviewCard = () => {
             </div>
 
             <h3 class="my-4 mb-0 text-base font-normal text-start items-start text-gray-400">
-                I've been using XYZ for over a year now and their customer service is excellent! Whenever I have a question, the team is always
+                I have been using XYZ for over a year now and their customer service is excellent! Whenever I have a question, the team is always
                 available and willing to help. Highly recommend!
             </h3>
 
@@ -54,7 +54,7 @@ const ReviewCard = () => {
                 <div class="h-10 w-10 overflow-hidden rounded-full shadow-sm outline-neutral-800">
                     <div className=" inline-block overflow-hidden rounded-lg border border-neutral-800">
                         <Image
-                            alt=""
+                            alt="image"
                             src="/konrad.jpg"
                             width={50}
                             height={50}

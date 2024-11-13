@@ -172,7 +172,7 @@ const Hero = () => {
           <div className='flex justify-center gap-10 items-center'>
             <div className='relative mt-14'>
               <div>
-                <Image src={"/konrad.jpg"} width={640} height={400} className="rounded-xl" />
+                <Image src={"/konrad.jpg"} width={640} height={400} alt="image" className="rounded-xl" />
                 <button className='absolute top-4 left-4 bg-blue-600 rounded-xl px-2 text-white'>
                   News
                 </button>
@@ -182,14 +182,14 @@ const Hero = () => {
                 <p className='font-semibold text-2xl line-clamp-2 mt-5'>Revitalizing Workplace Morale: Innovative Tactics for Boosting Employee Engagement in 2024</p>
                 <div className='flex gap-2 mt-3'>
                   <Link href={"/"} className="text-base text-blue-600">Read More</Link>
-                  <Image src={"/arrow.svg"} width={20} height={20} />
+                  <Image src={"/arrow.svg"} width={20} height={20} alt="image"/>
                 </div>
               </div>
             </div>
 
             <div className='relative mt-14'>
               <div>
-                <Image src={"/konrad.jpg"} width={640} height={400} className="rounded-xl" />
+                <Image src={"/konrad.jpg"} width={640} height={400} alt="image" className="rounded-xl" />
                 <button className='absolute top-4 left-4 bg-blue-600 rounded-xl px-2 text-white'>
                   News
                 </button>
@@ -199,14 +199,14 @@ const Hero = () => {
                 <p className='font-semibold text-2xl line-clamp-2 mt-5'>Revitalizing Workplace Morale: Innovative Tactics for Boosting Employee Engagement in 2024</p>
                 <div className='flex gap-2 mt-3'>
                   <Link href={"/"} className="text-base text-blue-600">Read More</Link>
-                  <Image src={"/arrow.svg"} width={20} height={20} />
+                  <Image src={"/arrow.svg"} width={20} height={20} alt="image" />
                 </div>
               </div>
             </div>
 
             <div className='relative mt-14'>
               <div>
-                <Image src={"/konrad.jpg"} width={640} height={400} className="rounded-xl" />
+                <Image src={"/konrad.jpg"} width={640} height={400} alt="image" className="rounded-xl" />
                 <button className='absolute top-4 left-4 bg-blue-600 rounded-xl px-2 text-white'>
                   News
                 </button>
@@ -216,7 +216,7 @@ const Hero = () => {
                 <p className='font-semibold text-2xl line-clamp-2 mt-5'>Revitalizing Workplace Morale: Innovative Tactics for Boosting Employee Engagement in 2024</p>
                 <div className='flex gap-2 mt-3'>
                   <Link href={"/"} className="text-base text-blue-600">Read More</Link>
-                  <Image src={"/arrow.svg"} width={20} height={20} />
+                  <Image src={"/arrow.svg"} width={20} height={20} alt="image" />
                 </div>
               </div>
             </div>

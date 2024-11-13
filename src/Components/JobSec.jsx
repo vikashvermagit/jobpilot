@@ -10,7 +10,7 @@ function JobSec() {
                 <div className="mb-4">
                     <label className="block text-gray-700 font-semibold mb-2">Search by Job Title</label>
                     <div className="flex items-center bg-white border rounded-md px-2">
-                        <Image src={"/location.svg"} width={20} height={20} className="text-gray-400" />
+                        <Image src={"/location.svg"} width={20} height={20} alt="image" className="text-gray-400" />
                         <input
                             type="text"
                             placeholder="Job title or company"
@@ -23,7 +23,7 @@ function JobSec() {
                 <div className="mb-4">
                     <label className="block text-gray-700 font-semibold mb-2">Location</label>
                     <div className="flex items-center bg-white border rounded-md px-2">
-                        <Image src={"/beg.svg"} width={20} height={20} className="text-gray-400" />
+                        <Image src={"/beg.svg"} width={20} height={20} alt="image" className="text-gray-400" />
                         <select className="w-full p-2 bg-transparent focus:outline-none">
                             <option>Choose city</option>
                             <option>Jaipur</option>
@@ -66,7 +66,7 @@ function JobSec() {
                 <div className='flex justify-between'>
                     <h1 className='text-base font-medium text-[#6C757D]'>Showing 6-6 of 10 results</h1>
                     <button className='border px-3 py-1 rounded-md flex gap-3 text-[#6C757D] border-[#6C757D]'>Sort by latest
-                        <Image src={"/arrow.svg"} width={20} height={20} />
+                        <Image src={"/arrow.svg"} width={20} height={20} alt="image"/>
                     </button>
                 </div>
 

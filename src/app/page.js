@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className=" bg-[#f2f7fc] min-h-screen absolute">
       <nav className="flex rounded-full justify-between z-50 p-6 fixed w-full bg-transparent border-b backdrop-blur-xl py-3">
-        <Image src={"/vercel.svg"} width={90} height={90} />
+        <Image src={"/vercel.svg"} width={90} height={90} alt="image"/>
         <div className="flex justify-between">
           <button
             className={`px-4 text-base font-medium focus:outline-none ${activeTab === 'home'
