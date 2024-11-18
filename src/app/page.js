@@ -4,17 +4,23 @@ import { useState } from "react";
 import Hero from "@/Components/Hero";
 import Footer from "@/Components/Footer";
 import JobSec from "@/Components/JobSec";
+import JobDescri from "@/Components/JobDescri";
+import AboutUs from "@/Components/AboutUs";
+import Login from "@/Components/Login";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState('home');
+  const [showLogin, setShowLogin] = useState(false);
 
   const handleTabClick = (tab) => {
     setActiveTab(tab);
   };
+
+
   return (
-    <div className=" bg-[#f2f7fc] min-h-screen absolute">
-      <nav className="flex rounded-full justify-between z-50 p-6 fixed w-full bg-transparent border-b backdrop-blur-xl py-3">
-        <Image src={"/vercel.svg"} width={90} height={90} alt="image"/>
+    <div className=" bg-[#f2f7fc] min-h-screen absolute ">
+      <nav className="flex rounded-full justify-between z-50 p-6 fixed w-full bg-transparent border-b border-blue-600 backdrop-blur-xl py-3">
+        <Image src={"/vercel.svg"} width={90} height={90} alt="image" />
         <div className="flex justify-between">
           <button
             className={`px-4 text-base font-medium focus:outline-none ${activeTab === 'home'
@@ -26,7 +32,7 @@ export default function Home() {
             Home
           </button>
           <button
-            className={`px-4 text-base font-medium  focus:outline-none ${activeTab === 'jobs'
+            className={`px-4 text-base font-medium focus:outline-none ${activeTab === 'jobs'
               ? ' text-black font-semibold'
               : 'text-gray-500 hover:text-black'
               }`}
@@ -55,34 +61,41 @@ export default function Home() {
         </div>
 
         <div className="flex justify-between gap-5">
-          <button className=" text-base font-semibold">Login</button>
+          <button className=" text-base font-semibold" onClick={() => setShowLogin(true)} >Login</button>
           <button className="rounded-[8px] bg-[#0A65CC] text-white w-[101px] h-[40px] text-base font-semibold">Register</button>
         </div>
 
 
       </nav>
- 
+
+      {showLogin && <Login onClose={() => setShowLogin(false)}  />
+      }
+
       <div className="pt-16  ">
         {activeTab === 'home' && (
           <div className="">
-           <Hero/>
+            <Hero />
 
           </div>
         )}
         {activeTab === 'jobs' && (
           <div>
-            <JobSec/>
+            <JobSec />
           </div>
         )}
-        {activeTab === 'about' && (
+        {activeTab === 'refer' && (
           <div>
-            <h2 className="text-2xl font-bold mb-4">About</h2>
-            <p>This is a blog about web development and programming.</p>
+            <JobDescri />
+          </div>
+        )}
+        {activeTab === 'aboutus' && (
+          <div>
+            <AboutUs />
           </div>
         )}
       </div>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 }

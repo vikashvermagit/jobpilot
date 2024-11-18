@@ -3,7 +3,7 @@ import React from 'react'
 
 const Jobcard = () => {
     return (
-        <div className='bg-white rounded-xl p-10 m-5'>
+        <div className='bg-white rounded-xl p-5 m-3'>
             <div className='flex justify-between'>
                 <h1 className='bg-[#f7f8fc] rounded-full px-3 py-1 text-base text-[#0A65CC]'>10 min ago</h1>
                 <Image src="/save.svg" width={20} height={20} alt="Icon" />
